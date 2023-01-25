@@ -47,11 +47,11 @@ const AddOnsMenu = () => {
             <form className="px-2 py-3" id="countDownForm">
               
               <div className="form-group">
-                <label for="countdown">Secs: </label>
+                <label for="countdownInput">Secs: </label>
                 <input
                   type="number"
                   className="form-control"
-                  id="countdown"
+                  id="countdownInput"
                   placeholder="seconds"
                 />
               </div>
